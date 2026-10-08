@@ -11,7 +11,7 @@ There's nothing to install or host. You sign in with your Wati account over OAut
 
 ## The fastest way: let your agent do it
 
-Paste this into Claude, ChatGPT, Cursor, Manus or any other agent:
+Paste this into Claude, ChatGPT, Meta Muse, Cursor, Manus or any other agent:
 
 ```
 Read https://raw.githubusercontent.com/wati-io/wati-mcp/main/AGENTS.md and connect me to Wati.
@@ -32,9 +32,10 @@ Try: *"Show the leads who haven't replied in 3 days"* or *"List my Astra agents 
 |---|---|
 | Claude (web / desktop) | **Customize → Connectors → Add custom connector**, URL `https://mcp.wati.io/mcp` |
 | ChatGPT | **Plugins → +**, MCP Server URL `https://mcp.wati.io/mcp`, Authentication **OAuth** |
+| Meta Muse | Ask Muse: *"Create a Custom Connector named wati: remote streamable HTTP, URL https://mcp.wati.io/mcp, OAuth sign-in"* |
 | Claude Code | `claude mcp add --transport http wati https://mcp.wati.io/mcp`, then `/mcp` to sign in |
 | Claude Code (plugin) | `/plugin marketplace add wati-io/wati-mcp`, then `/plugin install wati@wati` |
-| Cursor, VS Code, Codex, Gemini CLI, Windsurf, others | See [`AGENTS.md`](AGENTS.md#4-set-it-up-in-your-client) |
+| Muse Code, Cursor, VS Code, Codex, Gemini CLI, Windsurf, others | See [`AGENTS.md`](AGENTS.md#4-set-it-up-in-your-client) |
 
 ## Requirements
 

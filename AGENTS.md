@@ -107,7 +107,27 @@ Then run `codex mcp login wati`.
 }
 ```
 
-### 4.9 Generic: Manus, Muse, and any other MCP client
+### 4.9 Meta Muse (app, web, Mac)
+Muse runs in Meta's cloud. It reaches Wati over the public internet, which is fine because Wati MCP is a public HTTPS server.
+
+**If you are Muse**, create a Custom Connector with these settings:
+- Name: `wati`
+- Transport: remote streamable HTTP
+- URL: `https://mcp.wati.io/mcp` (or `https://eu-mcp.wati.io/mcp` for EU accounts)
+- Auth: OAuth, with no API key
+
+Then show the user the Wati sign-in link and wait for them to approve. After that, list the tools, run one read-only request from section 5, and save the connection as a reusable skill.
+
+**If you are the user**, send Muse this message:
+```
+Create a Custom Connector named "wati": remote streamable HTTP, URL https://mcp.wati.io/mcp, OAuth sign-in (no API key). After I sign in, list the tools and save it as a skill.
+```
+Some Muse versions also have **Settings → Connectors → Add custom connector**, where you can paste the same URL. Keep Muse's approval prompts turned on for any Wati action that sends messages.
+
+### 4.10 Meta Muse Code (terminal)
+Add `wati` as a `streamable_http` server, with URL `https://mcp.wati.io/mcp`, in the `mcp_servers` block of Muse Code's settings file. Then run `muse mcp login wati`, and run `/mcp` in a session to check the tools. If Wati is already set up in Claude Code or Codex, `/migrate` can import it.
+
+### 4.11 Generic: Manus and any other MCP client
 - **If the client supports remote MCP servers with OAuth** (often called a "custom connector" or "custom MCP"), add a server with URL `https://mcp.wati.io/mcp`, transport **HTTP / Streamable HTTP**, and auth **OAuth**. Leave the client ID and secret empty, because the server supports dynamic registration.
 - **If the client only supports local (stdio) servers**, bridge it with `mcp-remote`:
   ```json
