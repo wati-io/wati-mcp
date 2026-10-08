@@ -122,6 +122,8 @@ Then show the user the Wati sign-in link and wait for them to approve. After tha
 ```
 Create a Custom Connector named "wati": remote streamable HTTP, URL https://mcp.wati.io/mcp, OAuth sign-in (no API key). After I sign in, list the tools and save it as a skill.
 ```
+Once Muse is connected, the README has a ready-made prompt for a [daily WhatsApp brief](README.md#daily-whatsapp-brief-with-meta-muse).
+
 Some Muse versions also have **Settings → Connectors → Add custom connector**, where you can paste the same URL. Keep Muse's approval prompts turned on for any Wati action that sends messages.
 
 ### 4.10 Meta Muse Code (terminal)
