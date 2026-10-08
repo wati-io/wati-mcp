@@ -1,0 +1,13 @@
+{
+  "name": "wati",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to your Wati workspace and Astra AI agents via the hosted Wati MCP server.",
+  "author": {
+    "name": "Wati",
+    "url": "https://www.wati.io"
+  },
+  "homepage": "https://github.com/wati-io/wati-mcp",
+  "repository": "https://github.com/wati-io/wati-mcp",
+  "license": "MIT",
+  "keywords": ["wati", "whatsapp", "astra", "mcp", "crm"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wati",
+  "owner": {
+    "name": "Wati",
+    "url": "https://www.wati.io"
+  },
+  "metadata": {
+    "description": "Official Wati plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "wati",
+      "source": "./",
+      "description": "Connect Claude Code to your Wati workspace and Astra AI agents via the hosted Wati MCP server."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wati": {
+      "type": "http",
+      "url": "https://mcp.wati.io/mcp"
+    }
+  }
+}
