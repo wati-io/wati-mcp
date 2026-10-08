@@ -45,7 +45,6 @@ Muse can check Wati for you every morning and nudge you during the day, so you d
 You are my WhatsApp business assistant. Use the Wati connector to keep me on top of my customers. Save this as a skill called "Wati daily brief" and set up the schedule below.
 
 ## My settings
-- Timezone: <your timezone, e.g. Asia/Singapore>
 - Morning brief: every day at 09:00
 - Business hours: Mon–Sat, 09:00–19:00
 - "Waiting too long" means: no reply for more than 2 business hours
@@ -53,7 +52,7 @@ You are my WhatsApp business assistant. Use the Wati connector to keep me on top
 - Wati workspace: the active one (if I have several, ask me which one first)
 
 ## 1. Morning brief (every day at the time above)
-Look at the last 24 hours, compared with the 24 hours before. Use wati_get_conversations with my timezone, page through all results, and read the latest messages with wati_get_messages. Send me a short, phone-friendly brief with these sections. Skip a section if it's empty.
+Look at the last 24 hours, compared with the 24 hours before. Use wati_get_conversations with my phone's local timezone, page through all results, and read the latest messages with wati_get_messages. Send me a short, phone-friendly brief with these sections. Skip a section if it's empty.
 
 🔴 Needs a reply: conversations where the customer's latest message is inbound and nobody has answered. Sort by VIP first, then longest wait. For each, show the name, how long they've waited, a one-line summary of what they want, and a short draft reply.
 😠 At risk: customers who sound upset or might leave. Look for complaints, refunds, cancellations, "still waiting", repeated follow-ups, or an angry tone, and use CX scores from wati_get_contact_profile when they're available. Say why you flagged each one and suggest how to save the relationship.
