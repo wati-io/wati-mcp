@@ -25,9 +25,10 @@ Read https://raw.githubusercontent.com/wati-io/wati-mcp/main/AGENTS.md and conne
 ## What you can do
 
 - **Wati workspace:** search contacts, conversations and leads; review history; manage campaigns and templates; analyze trends; build segments and find follow-ups.
+- **Instagram:** list posts and comments, see what's unread, reply to comments publicly, and send private replies, all from the same connector.
 - **Astra AI agents:** build, test, deploy and improve agents; edit instructions, tone, tools and escalation rules; evaluate before publishing.
 
-Try: *"Show the leads who haven't replied in 3 days"* or *"List my Astra agents and summarize their escalation rules."*
+Try: *"Show the leads who haven't replied in 3 days"*, *"Which Instagram comments haven't I answered?"* or *"List my Astra agents and summarize their escalation rules."*
 
 ## Quick setup
 

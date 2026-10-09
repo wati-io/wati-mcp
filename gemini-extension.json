@@ -1,7 +1,7 @@
 {
   "name": "wati",
   "version": "1.0.0",
-  "description": "Run WhatsApp Business from the command line: read conversations, reply, send approved templates, and manage contacts, segments and campaigns through Wati.",
+  "description": "Run WhatsApp Business and Instagram from the command line: read conversations and comments, reply, send approved templates, and manage contacts, segments and campaigns through Wati.",
   "mcpServers": {
     "wati": {
       "httpUrl": "https://mcp.wati.io/mcp",
