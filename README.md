@@ -5,11 +5,12 @@ Connect any AI assistant to your **Wati** workspace and **Astra** AI agents thro
 ```
 https://mcp.wati.io/mcp        # global
 https://eu-mcp.wati.io/mcp     # EU-hosted accounts
+https://ksa-mcp.wati.io/mcp    # Saudi Arabia-hosted accounts
 ```
 
 There's nothing to install or host. You sign in with your Wati account over OAuth, and no API key is needed.
 
-**Using Claude?** [**Add Wati to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp) · [EU accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Feu-mcp.wati.io%2Fmcp) opens Claude with everything filled in. Click **Add**, then **Connect**. Team admins can add it for the whole org with [this link](https://claude.ai/admin-settings/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp).
+**Using Claude?** [**Add Wati to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp) · [EU accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Feu-mcp.wati.io%2Fmcp) · [KSA accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fksa-mcp.wati.io%2Fmcp) opens Claude with everything filled in. Click **Add**, then **Connect**. Team admins can add it for the whole org with [this link](https://claude.ai/admin-settings/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp).
 
 ## The fastest way: let your agent do it
 
@@ -24,9 +25,10 @@ Read https://raw.githubusercontent.com/wati-io/wati-mcp/main/AGENTS.md and conne
 ## What you can do
 
 - **Wati workspace:** search contacts, conversations and leads; review history; manage campaigns and templates; analyze trends; build segments and find follow-ups.
+- **Instagram:** list posts and comments, see what's unread, reply to comments publicly, and send private replies, all from the same connector.
 - **Astra AI agents:** build, test, deploy and improve agents; edit instructions, tone, tools and escalation rules; evaluate before publishing.
 
-Try: *"Show the leads who haven't replied in 3 days"* or *"List my Astra agents and summarize their escalation rules."*
+Try: *"Show the leads who haven't replied in 3 days"*, *"Which Instagram comments haven't I answered?"* or *"List my Astra agents and summarize their escalation rules."*
 
 ## Quick setup
 
