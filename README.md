@@ -5,11 +5,12 @@ Connect any AI assistant to your **Wati** workspace and **Astra** AI agents thro
 ```
 https://mcp.wati.io/mcp        # global
 https://eu-mcp.wati.io/mcp     # EU-hosted accounts
+https://ksa-mcp.wati.io/mcp    # Saudi Arabia-hosted accounts
 ```
 
 There's nothing to install or host. You sign in with your Wati account over OAuth, and no API key is needed.
 
-**Using Claude?** [**Add Wati to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp) · [EU accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Feu-mcp.wati.io%2Fmcp) opens Claude with everything filled in. Click **Add**, then **Connect**. Team admins can add it for the whole org with [this link](https://claude.ai/admin-settings/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp).
+**Using Claude?** [**Add Wati to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp) · [EU accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Feu-mcp.wati.io%2Fmcp) · [KSA accounts](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fksa-mcp.wati.io%2Fmcp) opens Claude with everything filled in. Click **Add**, then **Connect**. Team admins can add it for the whole org with [this link](https://claude.ai/admin-settings/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp).
 
 ## The fastest way: let your agent do it
 

@@ -17,6 +17,10 @@
     {
       "type": "streamable-http",
       "url": "https://eu-mcp.wati.io/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://ksa-mcp.wati.io/mcp"
     }
   ]
 }
