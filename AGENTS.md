@@ -46,7 +46,9 @@ An unauthenticated request returns `401`. That is expected: it starts the OAuth 
 Find your own client below. If it is not listed, use **4.9 Generic**.
 
 ### 4.1 Claude (claude.ai web / Claude desktop)
-The user does this in the UI; you cannot add connectors for them.
+The user does this in the UI; you cannot add connectors for them. The quickest way is to give them this link, which opens the dialog with everything filled in:
+`https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wati&connectorUrl=https%3A%2F%2Fmcp.wati.io%2Fmcp`
+(EU: replace the end with `https%3A%2F%2Feu-mcp.wati.io%2Fmcp`.) They click **Add**, then **Connect**. To do it by hand instead:
 1. **Customize → Connectors → Add → Add custom connector**
 2. Name `Wati`, URL `https://mcp.wati.io/mcp` (or the EU URL), then **Add**
 3. Click **Connect**, choose **Wati** or **Astra**, **Continue**, then sign in
