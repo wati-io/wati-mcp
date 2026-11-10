@@ -1,8 +1,6 @@
 # Wati MCP
 
-[![smithery badge](https://smithery.ai/badge/wati-io/wati-mcp)](https://smithery.ai/servers/wati-io/wati-mcp)
-
-Connect any AI assistant to your **Wati** workspace and **Astra** AI agents through the official hosted [Model Context Protocol](https://modelcontextprotocol.io) server. Also listed on [Smithery](https://smithery.ai/servers/wati-io/wati-mcp).
+Connect any AI assistant to your **Wati** workspace and **Astra** AI agents through the official hosted [Model Context Protocol](https://modelcontextprotocol.io) server.
 
 ```
 https://mcp.wati.io/mcp        # global
