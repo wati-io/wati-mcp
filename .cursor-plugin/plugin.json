@@ -1,0 +1,23 @@
+{
+  "name": "wati",
+  "version": "1.1.0",
+  "description": "Run your Wati workspace from Cursor: contacts, conversations, campaigns and message templates across WhatsApp, Instagram, Messenger and web chat, plus Astra AI agents. Sign in with OAuth, no API key needed.",
+  "author": {
+    "name": "Wati",
+    "email": "support@wati.io"
+  },
+  "homepage": "https://www.wati.io",
+  "repository": "https://github.com/wati-io/wati-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "wati",
+    "whatsapp",
+    "instagram",
+    "messaging",
+    "crm",
+    "astra",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
